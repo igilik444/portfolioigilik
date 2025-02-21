@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тынымбай Игілік</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            margin-top: 50px;
+        }
+        .lang-buttons button {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .lang-buttons button:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Тынымбай Игілік</h1>
+        <p>Молодой мобилограф из Кызылорды</p>
+        <div class="lang-buttons">
+            <button onclick="changeLang('kk')">Қазақша</button>
+            <button onclick="changeLang('ru')">Русский</button>
+            <button onclick="changeLang('en')">English</button>
+        </div>
+    </div>
+
+    <script>
+        function changeLang(lang) {
+            alert("Языковая смена пока не реализована, но можно сделать через файлы!");
+        }
+    </script>
+</body>
+</html>
